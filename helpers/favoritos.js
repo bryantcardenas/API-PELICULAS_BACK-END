@@ -1,4 +1,4 @@
-import Favoritos from "../models/Favoritos.js";
+import Favoritos from "../models/favoritos.js";
 
 const helpersFavoritos = {
   existeUsuarioById: async (id) => {
