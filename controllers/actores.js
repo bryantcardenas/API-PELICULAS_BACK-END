@@ -42,9 +42,9 @@ const actoresGetBuscar = async(req,res)=>{
     const actores = await Actores.find({})
     res.json({
         actores
-
     })
 }
+
 // editar actor por id
 const actoresPutEditar = async(req,res)=>{
     const {id}=req.params
