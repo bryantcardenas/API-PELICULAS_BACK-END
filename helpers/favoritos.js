@@ -17,3 +17,4 @@ const helpersFavoritos = {
   },
 };
 export default helpersFavoritos;
+  
